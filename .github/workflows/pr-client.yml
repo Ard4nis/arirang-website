@@ -33,4 +33,4 @@ jobs:
               run: yarn test --ci --passWithNoTests modules/client
 
             - name: Build
-              run: yarn workspace @monorepo/client build
+              run: yarn workspace @arirang/client build

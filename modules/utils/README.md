@@ -17,7 +17,7 @@ utils/
 Import utility functions as needed:
 
 ```typescript
-import { someUtility } from '@monorepo/utils';
+import { someUtility } from '@arirang/utils';
 ```
 
 ## Available Utilities

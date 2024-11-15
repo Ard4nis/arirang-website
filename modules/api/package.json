@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/api",
+  "name": "@arirang/api",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
@@ -7,14 +7,14 @@
     "cdk": "cdk"
   },
   "dependencies": {
-    "@monorepo/aws": "workspace:^",
-    "@monorepo/utils": "workspace:^",
-    "@types/node": "^20.16.9",
-    "aws-cdk-lib": "^2.160.0",
-    "constructs": "^10.3.0",
+    "@arirang/aws": "workspace:^",
+    "@arirang/utils": "workspace:^",
+    "@types/node": "^20.17.6",
+    "aws-cdk-lib": "^2.167.0",
+    "constructs": "^10.4.2",
     "esbuild": "^0.24.0",
     "source-map-support": "^0.5.21",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.3"
   }
 }
