@@ -39,7 +39,7 @@
     "ts-node": "^10.9.2"
   },
   "scripts": {
-    "prepare": "husky",
+    "postinstall": "husky",
     "lint": "eslint . --fix",
     "prettier": "prettier --write .",
     "test": "jest --verbose",
@@ -47,9 +47,12 @@
     "esbuild": "esbuild"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,json}": [
+    "*.{js,jsx,ts,tsx}": [
       "yarn eslint --fix",
       "yarn prettier --write"
+    ],
+    "!(*.{js,jsx,ts,tsx})": [
+      "prettier --write"
     ]
   },
   "packageManager": "yarn@4.5.1"
