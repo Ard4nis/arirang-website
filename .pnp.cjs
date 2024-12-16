@@ -743,7 +743,7 @@ const RAW_RUNTIME_STATE =
     ],\
     [\
       "@types/react-dom",\
-      "npm:18.3.1"\
+      "virtual:529b5145b9608d3db471f3c2dc45f4ab43c2dad7a4e282397cf57293e8018393e8d6cf81857f57335ddcedb2d66e30c94b028d005a8423f759b9fc7e52ad1805#npm:18.3.5"\
     ],\
     [\
       "@types/stack-utils",\
@@ -2728,7 +2728,7 @@ const RAW_RUNTIME_STATE =
           ["@arirang/aws", "workspace:modules/aws"],\
           ["@types/node", "npm:20.17.6"],\
           ["@types/react", "npm:18.3.12"],\
-          ["@types/react-dom", "npm:18.3.1"],\
+          ["@types/react-dom", "virtual:529b5145b9608d3db471f3c2dc45f4ab43c2dad7a4e282397cf57293e8018393e8d6cf81857f57335ddcedb2d66e30c94b028d005a8423f759b9fc7e52ad1805#npm:18.3.5"],\
           ["@vitejs/plugin-react", "virtual:529b5145b9608d3db471f3c2dc45f4ab43c2dad7a4e282397cf57293e8018393e8d6cf81857f57335ddcedb2d66e30c94b028d005a8423f759b9fc7e52ad1805#npm:4.3.3"],\
           ["aws-cdk", "npm:2.166.0"],\
           ["aws-cdk-lib", "virtual:8d3adab05f3ec5b4ad93eb86e9dfdec48a86b7bb2c1215103902dfab51d34ab4d253b1c9dbc5490f524875820140e1cab46a0ff28cd0815dfa23ba7c78a07361#npm:2.167.0"],\
@@ -5363,11 +5363,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/react-dom", [\
-      ["npm:18.3.1", {\
-        "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.3.1-15935b4e84-8b416551c6.zip/node_modules/@types/react-dom/",\
+      ["npm:18.3.5", {\
+        "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.3.5-b1c4b786e6-b163d35a6b.zip/node_modules/@types/react-dom/",\
         "packageDependencies": [\
-          ["@types/react-dom", "npm:18.3.1"],\
+          ["@types/react-dom", "npm:18.3.5"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:529b5145b9608d3db471f3c2dc45f4ab43c2dad7a4e282397cf57293e8018393e8d6cf81857f57335ddcedb2d66e30c94b028d005a8423f759b9fc7e52ad1805#npm:18.3.5", {\
+        "packageLocation": "./.yarn/__virtual__/@types-react-dom-virtual-561e18ff82/0/cache/@types-react-dom-npm-18.3.5-b1c4b786e6-b163d35a6b.zip/node_modules/@types/react-dom/",\
+        "packageDependencies": [\
+          ["@types/react-dom", "virtual:529b5145b9608d3db471f3c2dc45f4ab43c2dad7a4e282397cf57293e8018393e8d6cf81857f57335ddcedb2d66e30c94b028d005a8423f759b9fc7e52ad1805#npm:18.3.5"],\
           ["@types/react", "npm:18.3.12"]\
+        ],\
+        "packagePeers": [\
+          "@types/react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10526,7 +10536,7 @@ const RAW_RUNTIME_STATE =
           ["react-router-dom", "virtual:529b5145b9608d3db471f3c2dc45f4ab43c2dad7a4e282397cf57293e8018393e8d6cf81857f57335ddcedb2d66e30c94b028d005a8423f759b9fc7e52ad1805#npm:6.28.0"],\
           ["@remix-run/router", "npm:1.21.0"],\
           ["@types/react", "npm:18.3.12"],\
-          ["@types/react-dom", "npm:18.3.1"],\
+          ["@types/react-dom", "virtual:529b5145b9608d3db471f3c2dc45f4ab43c2dad7a4e282397cf57293e8018393e8d6cf81857f57335ddcedb2d66e30c94b028d005a8423f759b9fc7e52ad1805#npm:18.3.5"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:529b5145b9608d3db471f3c2dc45f4ab43c2dad7a4e282397cf57293e8018393e8d6cf81857f57335ddcedb2d66e30c94b028d005a8423f759b9fc7e52ad1805#npm:18.3.1"],\
           ["react-router", "virtual:f43204fed7e848163b6ed439dae4b40e48359c3944a496c59ebcc5c915f83ac3d35ef3129a9f2be9c784663d0e477c42d443e512d5734516bea2953316d178cf#npm:6.28.0"]\
